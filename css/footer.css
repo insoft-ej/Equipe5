@@ -1,0 +1,29 @@
+@font-face{
+
+	font-family: f1;
+	src:url(fonts/TitilliumWeb-Regular.ttf);
+}
+
+footer {
+	width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.copyright{
+    position: relative;
+	height: 60px;
+	background: rgb(41, 54, 70);
+	z-index:1;
+
+}
+
+.footer-copy{
+   font-family:f1;
+   padding-top: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   color:#FFF;
+
+}
+
