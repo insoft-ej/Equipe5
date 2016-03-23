@@ -9,24 +9,7 @@
     	<!--<link rel="stylesheet" type="text/css" href="css/style.css" />-->
     	<link rel="stylesheet" type="text/css" href="css/header.css" />
     	<link rel="stylesheet" type="text/css" href="css/geral.css" />
-   		
-   		<!--Função JavaScript para Menu Flutuante-->
-   		<script type="text/javascript">
-			$(function() {
-				$(window).scroll(function(){
-					var topo = $('#topo').height(); // altura do topo
-					var rodape = $('#rodape').height(); // altura do rodape
-					var scrollTop = $(window).scrollTop(); // qto foi rolado a barra
-					var tamPagina = $(document).height(); // altura da página
-				 
-					if(scrollTop > topo){
-					  $('#menu').css({'position' : 'absolute', 'margin-top' : scrollTop - (topo-5)});
-					}else{
-					  $('#menu').css({'position' : 'relative', 'margin-top' : 0});
-					}               
-				});
-			});
-		</script>
+    	<script src="js/javascript.js"></script> 		
 
     </head>
 
