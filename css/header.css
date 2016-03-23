@@ -1,5 +1,4 @@
 /* default attributes */
-
 *{
     margin:0;
     padding:0; 
@@ -42,19 +41,11 @@ header {
 
 
       header ul {
-<<<<<<< HEAD
         padding: 10px 95px 0 0;
-=======
-        padding: 15px 10px 0 0;
->>>>>>> 0eb9115d56c96e5549795fa631488dd9252f886b
       }
 
       header li:first-child {
         border: none;
-<<<<<<< HEAD
-        z-index: 2;
-=======
->>>>>>> 0eb9115d56c96e5549795fa631488dd9252f886b
       }
 
       header li a {

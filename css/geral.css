@@ -16,10 +16,7 @@
 	src:url(fonts/TitilliumWeb-ExtraLight.ttf);
 }
 
-<<<<<<< HEAD
 /*No momente este header nao muda nada no code*/
-=======
->>>>>>> 0eb9115d56c96e5549795fa631488dd9252f886b
 header {
       	font-family: f2;
         position: fixed;
@@ -34,14 +31,6 @@ section{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-<<<<<<< HEAD
-        background-color: #7FFFD4;
+        background-color: #F0F8FF;
       }
 
-
-
-
-=======
-        background-color: #336666;
-      }
->>>>>>> 0eb9115d56c96e5549795fa631488dd9252f886b
