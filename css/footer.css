@@ -11,7 +11,11 @@ footer {
 }
 
 .copyright{
+<<<<<<< HEAD
   position: relative;
+=======
+    position: relative;
+>>>>>>> 0eb9115d56c96e5549795fa631488dd9252f886b
 	height: 60px;
 	background: rgb(41, 54, 70);
 	z-index:1;
