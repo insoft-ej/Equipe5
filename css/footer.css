@@ -27,3 +27,44 @@ footer {
 
 }
 
+#footer-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-top: solid 2px #e5e5e5;
+    background: #f0f0f0;
+  }
+
+    #footer-wrapper form input[type="text"],
+    #footer-wrapper form input[type="email"],
+    #footer-wrapper form input[type="password"],
+    #footer-wrapper form select,
+    #footer-wrapper form textarea {
+      background: #f7f7f7;
+    }
+
+      #footer-wrapper form input[type="text"]:focus,
+      #footer-wrapper form input[type="email"]:focus,
+      #footer-wrapper form input[type="password"]:focus,
+      #footer-wrapper form select:focus,
+      #footer-wrapper form textarea:focus {
+        background: #fff;
+      }
+
+    #footer-wrapper h2 {
+      text-align: center;
+    }
+
+    #footer-wrapper {
+        padding: 6em 0 8em 0;
+      }
+
+    /* Footer */
+
+      #footer .icons {
+        margin: 0 0 2em 0 !important;
+      }
+
+        #footer .icons:last-child {
+          margin-bottom: 0;
+        }
+

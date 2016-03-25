@@ -9,6 +9,7 @@
     	<!--<link rel="stylesheet" type="text/css" href="css/style.css" />-->
     	<link rel="stylesheet" type="text/css" href="css/header.css" />
     	<link rel="stylesheet" type="text/css" href="css/geral.css" />
+    	<link rel="stylesheet" type="text/css" href="css/slider.css" />
     	<script src="js/javascript.js"></script> 		
 
     </head>
@@ -47,24 +48,86 @@
 			<hr>
 			<section>
 				<div id="home">
+					<br><br><br>
 					<a name="home" id="home">
-						<br><br><br><br>
-						<h1>Engenharia de Software</h1>
-					</a>
-
-						<h2>Faculdade do Gama</h2>
-
-						<h3>Universidade de Brasília</h3>
-
-						<h3>Fluxograma do curso de Engenharia de Software</h3>
-
-						<h4>Ênfases</h4>
-
+						<div id="slideshow-wrap">
+				        <input type="radio" id="button-1" name="controls" checked="checked"/>
+				        <label for="button-1"></label>
+				        <input type="radio" id="button-2" name="controls"/>
+				        <label for="button-2"></label>
+				        <input type="radio" id="button-3" name="controls"/>
+				        <label for="button-3"></label>
+				        <input type="radio" id="button-4" name="controls"/>
+				        <label for="button-4"></label>
+				        <input type="radio" id="button-5" name="controls"/>
+				        <label for="button-5"></label>
+				        <label for="button-1" class="arrows" id="arrow-1">></label>
+				        <label for="button-2" class="arrows" id="arrow-2">></label>
+				        <label for="button-3" class="arrows" id="arrow-3">></label>
+				        <label for="button-4" class="arrows" id="arrow-4">></label>
+				        <label for="button-5" class="arrows" id="arrow-5">></label> 
+				        <div id="slideshow-inner">
+				            <ul>
+				                <li id="slide1">
+				                    <img src="images/1.jpg" />
+				                    <div class="description">
+				                        <input type="checkbox" id="show-description-1"/>
+				                        <div class="description-text">
+				                            <h2>Flower power</h2>
+				                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+				                        </div>
+				                    </div>
+				                </li>
+				                <li id="slide2">
+				                    <img src="images/2.jpg" />
+				                    <div class="description">
+				                        <input type="checkbox" id="show-description-2"/>
+				                        <label for="show-description-2" class="show-description-label">I</label>
+				                        <div class="description-text">
+				                            <h2>Golden sunset</h2>
+				                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+				                        </div>
+				                    </div>
+				                </li>
+				                <li id="slide3">
+				                    <img src="images/3.jpg" />
+				                    <div class="description">
+				                        <input type="checkbox" id="show-description-3"/>
+				                        <div class="description-text">
+				                            <h2>Flower power again</h2>
+				                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+				                        </div>
+				                    </div>
+				                </li>
+				                <li id="slide4">
+				                    <img src="images/4.jpg" />
+				                    <div class="description">
+				                        <input type="checkbox" id="show-description-4"/>
+				                        <div class="description-text">
+				                            <h2>Stormy coast</h2>
+				                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+				                        </div>
+				                    </div>
+				                </li>
+				                <li id="slide5">
+				                    <img src="images/logo.jpg" />
+				                    <div class="description">
+				                        <input type="checkbox" id="show-description-5"/>
+				                        <div class="description-text">
+				                            <h2>Splash!</h2>
+				                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+				                        </div>
+				                    </div>
+				                </li>
+				            </ul>
+				        </div>
+				    </div>
 				</div>
 
 				<!--Estes infinitos <br> é so para testar a funcionalidade se ao clicar somente no local selecionado no menu irá funcionar-->
 				<div id="introduction"> 
-					<a name="introduction" id="introduction">
+					<a name="introduction" id="introduction">				
+
 						<br><br><br><br>Introdução<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 					</a>
 				</div>
@@ -72,11 +135,38 @@
 				<div id="emphasis">
 					<a name="emphasis" id="emphasis">
 						<br><br><br><br>Ênfases<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+						<p><img src="images/lu_tran.gif" name="foto"> </p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
+						<p>&nbsp;</p>
 					</a>
 				</div>
 				<div id="projects">
 					<a name="projects" id="projects">
 						<br><br><br><br>Projetos<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+						<!-- FOTO -->
+							<div class="linha">
+								<span>
+									<span id="carregando"><img src="imgs/preload.gif" alt="carregando.." style="margin-top:10%" /> carregando..</span>
+									<img id="foto" onload="onLoadImg()" style="display:none" />
+								</span>
+							</div>
+	
+						<div id="titPag" onmouseover="document.getElementById('tit').style.color='#000'"
+									onmouseout="document.getElementById('tit').style.color='#ccc'">
+							<span id="tit"></span>
+						</div>
+						
+						<div class="linha" style="padding-bottom:1.5%">
+							<span>a foto <strong id="mudarNao" style="display:none;font:inherit">n&atilde;o </strong>
+							mudar&aacute; ap&oacute;s 10 segundos
+							<input id="mudar" type="checkbox" onclick="atualizaFoto()" title="Mudar foto automaticamente ap&oacute;s 10 segundos?" /></span>
+						</div>
 					</a>
 				</div>
 				<div id="faculty">
@@ -86,8 +176,108 @@
 				</div>
 				<div id="contact">
 					<a name="contact" id="contact">
-						<br><br><br><br>Contate-nos<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+						<br><br><br><br>
+						<h1> Contatos</h1>
+						<form  name="form_contact" method="post" action="">
+						  <p>Nome:
+						  	<input type="text" name="nome" onKeyUp="javascript:somente_letra(this);" />
+						  </p>
+
+						  <p>Email:
+						  	<input type="text" name="nome" onKeyUp="javascript:somente_letra(this);" />
+						  </p>
+
+						  <p>Assunto:
+						  	<input type="text" name="nome" onKeyUp="javascript:somente_letra(this);" />
+						  </p>
+
+						  <p>Comentário:
+						  	<input type="text" name="nome" onKeyUp="javascript:somente_letra(this);" />
+						  </p>
+						  
+						  <p>
+						    <input type="submit" name="button"  value="Enviar" />
+						  </p>
+						 </form>
+
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
 					</a>
+
+					<div id="footer-wrapper">
+						<div id="footer" class="container">
+							<header>
+								<h2>Questions or comments? <strong>Get in touch:</strong></h2>
+							</header>
+							<div class="row">
+								<div class="6u 12u(mobile)">
+									<section>
+										<form method="post" action="#">
+											<div class="row 50%">
+												<div class="6u 12u(mobile)">
+													<input name="name" placeholder="Name" type="text" />
+												</div>
+												<div class="6u 12u(mobile)">
+													<input name="email" placeholder="Email" type="text" />
+												</div>
+											</div>
+											<div class="row 50%">
+												<div class="12u">
+													<textarea name="message" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="row 50%">
+												<div class="12u">
+													<a href="#" class="form-button-submit button icon fa-envelope">Send Message</a>
+												</div>
+											</div>
+										</form>
+									</section>
+								</div>
+								<div class="6u 12u(mobile)">
+									<section>
+										<p>Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet
+										mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur
+										leo nibh, rutrum eu malesuada.</p>
+										<div class="row">
+										<div class="6u 12u(mobile)">
+											<ul class="icons">
+												<li class="icon fa-home">
+													1234 Somewhere Road<br />
+													Nashville, TN 00000<br />
+													USA
+												</li>
+												<li class="icon fa-phone">
+													(000) 000-0000
+												</li>
+												<li class="icon fa-envelope">
+													<a href="#">info@untitled.tld</a>
+												</li>
+											</ul>
+										</div>
+										<div class="6u 12u(mobile)">
+											<ul class="icons">
+												<li class="icon fa-twitter">
+													<a href="#">@untitled-tld</a>
+												</li>
+												<li class="icon fa-instagram">
+													<a href="#">instagram.com/untitled-tld</a>
+												</li>
+												<li class="icon fa-dribbble">
+													<a href="#">dribbble.com/untitled-tld</a>
+												</li>
+												<li class="icon fa-facebook">
+													<a href="#">facebook.com/untitled-tld</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				</div>
 
 				</div>
 			</section>
