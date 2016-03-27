@@ -1,0 +1,81 @@
+*{ margin:0; padding:0;}
+
+body{ font:100% normal Arial, Helvetica, sans-serif;}
+
+form,input,select,textarea{margin:0; padding:40; color:#000000;}
+
+div.box {
+    margin:0 auto;
+    width:500px;
+    background:#00FFFF;
+    position:relative;
+    top:10px;
+    border:1px solid #00FFFF;
+}
+
+div.box h1 { 
+    color:#000000;
+    font-size:19px;
+    text-transform:uppercase;
+    padding:5px 0 5px 5px;
+    border-bottom:1px solid #00FFFF;
+    border-top:1px solid #00FFFF; 
+}
+
+div.box label {
+    width:100%;
+    display: block;
+    background:#00FFFF;
+    border-top:1px solid #00FFFF;
+    border-bottom:1px solid #00FFFF;
+    padding:10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#000000;
+    font-size:15px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+
+div.box .input_text {
+    padding:10px 10px;
+    width:200px;
+    background:#ADD8E6;
+    border-bottom: 1px double #000000;
+    border-top: 1px double #000000;
+    border-left:1px double #000000;
+    border-right:1px double #000000;
+}
+
+div.box .message{
+    padding:7px 7px;
+    width:350px;
+    background:#ADD8E6;
+    border-bottom: 1px double #000000;
+    border-top: 1px double #000000;
+    border-left:1px double #000000;
+    border-right:1px double #000000;
+    overflow:hidden;
+    height:150px;
+}
+
+div.box .button{
+    margin:0 0 10px 0;
+    padding:4px 7px;
+    background:#ADD8E6;
+    border:0px;
+    position: relative;
+    top:10px;
+    left:382px;
+    width:100px;
+    border-bottom: 3px double #000000;
+    border-top: 3px double #000000;
+    border-left:3px double #000000;
+    border-right:3px double #000000;
+}
+
+
