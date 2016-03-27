@@ -57,3 +57,18 @@ function mostraFoto(num){
 			else{if (ant == false && num == 1)		{document.getElementById('anterior').disabled=true}};
 		//---------------------------------------- FIM: habiliar/desabilitar botões pr&oacute;ximo/anterior -------------------------------------------
 }
+
+/* Rolagem do carrosel*/
+$(document).ready(function() {
+	$("#owl-demo").owlCarousel({
+		items : 4,
+		lazyLoad : true,
+		autoPlay : true,
+		navigation : true,
+		navigationText : ["", ""],
+		rewindNav : false,
+		scrollPerPage : false,
+		pagination : false,
+		paginationNumbers : false,
+	});
+});
