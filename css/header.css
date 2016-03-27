@@ -3,6 +3,8 @@
     margin:0;
     padding:0; 
     border:0;
+	z-index: 0;
+
  }
 
       /* lists */
@@ -31,7 +33,6 @@ header {
         margin-left: 10%;
         margin-right: 10%;
         background: #696969;
-  
       }
 
       #logo-unb {

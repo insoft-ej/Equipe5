@@ -1,0 +1,27 @@
+/* default attributes */
+
+*{
+    margin-top:0;
+    padding-top:0; 
+    border:0;
+ }
+
+@font-face{
+	font-family: font1;
+	src:url(fonts/TitilliumWeb-Regular.ttf);
+}
+
+@font-face{
+	font-family: font2;
+	src:url(fonts/TitilliumWeb-ExtraLight.ttf);
+}
+
+/*No momente este header nao muda nada no code*/
+
+section{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: #F0F8FF;
+      }
+
