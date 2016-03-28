@@ -1,20 +1,4 @@
 
-$(function() {
-	$(window).scroll(function(){
-		var topo = $('#topo').height(); // altura do topo
-		var rodape = $('#rodape').height(); // altura do rodape
-		var scrollTop = $(window).scrollTop(); // qto foi rolado a barra
-		var tamPagina = $(document).height(); // altura da página
-				 
-		if(scrollTop > topo){
-			$('#menu').css({'position' : 'absolute', 'margin-top' : scrollTop - (topo-5)});
-		}else{
-			$('#menu').css({'position' : 'relative', 'margin-top' : 0});
-		}               
-	});
-});
-
-
 
 function somente_letra(campo){
 	var digits="qwertyuiopasdfghjklçzxcvbnm@"
@@ -57,3 +41,18 @@ function mostraFoto(num){
 			else{if (ant == false && num == 1)		{document.getElementById('anterior').disabled=true}};
 		//---------------------------------------- FIM: habiliar/desabilitar botões pr&oacute;ximo/anterior -------------------------------------------
 }
+
+/* Rolagem do carrosel*/
+$(document).ready(function() {
+	$("#owl-demo").owlCarousel({
+		items : 4,
+		lazyLoad : true,
+		autoPlay : true,
+		navigation : true,
+		navigationText : ["", ""],
+		rewindNav : false,
+		scrollPerPage : false,
+		pagination : false,
+		paginationNumbers : false,
+	});
+});

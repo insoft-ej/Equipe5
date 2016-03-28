@@ -30,10 +30,17 @@ header {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
+<<<<<<< HEAD
 		background: #267F5D;
 		z-index: 2000;			
      }
 	
+=======
+        background: #696969;
+          
+      }
+
+>>>>>>> master
       #logo-unb {
         padding: 10px 0 10px 10px;
         width: 10%;		

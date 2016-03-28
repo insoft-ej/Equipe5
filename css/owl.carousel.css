@@ -1,0 +1,202 @@
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.24
+*/
+body {
+	font-family: font1;
+	src:url(fonts/TitilliumWeb-Regular.ttf);
+	font-size: 100%;
+}
+    #owl-demo .item{
+       margin: 0.5em;
+		transition: 0.5s all;
+		-webkit-transition: 0.5s all;
+		-moz-transition: 0.5s all;
+		-o-transition: 0.5s all;
+		padding: 1em;
+		background: #C0C0C0;
+		cursor:pointer;
+    }
+    #owl-demo .item:hover a{
+    		color:#fff;
+    }
+    #owl-demo .item img{
+        display: block;
+        height: auto;
+    }
+.item img,.item a,.item p{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-o-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+/* Nome dos professores*/
+.item h4 a{
+	font-family: f1;
+	font-size: 1em;
+	color: #696969;
+	padding: 0.5em 0 0.4em 0;
+	display:block;
+	transition:0.5s all;
+}
+.item h4 a:hover{
+	color:#C0C0C0;
+}
+
+/*---//--*/
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */ 
+	height:35px;
+	width:35px;
+	display:block;
+	font-size: 12px;
+	transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+}
+.owl-theme .owl-controls .owl-buttons div:hover{
+	opacity:0.6;
+} 
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	text-decoration: none;
+}
+.owl-prev {
+	position: absolute;
+	top: 23%;
+	left: -3%;
+	background: url(../images/c-arrows.png) no-repeat;
+}
+.owl-next{
+	position: absolute;
+	top:23%;
+	right: -4%;
+	background: url(../images/c-arrows.png) no-repeat -59px 0px;
+}
+
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.24
+ */
+
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+	margin: 2% 0 4%;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+} 
+
+@media only screen and (max-width:1440px) and (min-width:1366px) {
+	.owl-carousel {
+		width: 80%;
+		margin: 0 auto;
+		padding: 2%;
+	}
+}
+@media only screen and (max-width:1366px) and (min-width:1280px) {
+	.owl-carousel {
+		width: 80%;
+		margin: 0 auto;
+		padding: 2%;
+	}
+}
+@media only screen and (max-width:1280px) and (min-width:1024px) {
+	.owl-carousel {
+		width: 80%;
+		margin: 0 auto;
+		padding: 2%;
+	}
+	.item h4 a{
+		font-size: 1.2em;
+	}
+}
+@media only screen and (max-width:1024px) and (min-width:768px) {
+	.owl-carousel {
+		width: 90%;
+		margin: 0 auto;
+		padding: 2%;
+	}
+	.item h4 a {
+		font-size: 1em;
+	}
+}
+@media only screen and (max-width:800px) and (min-width:640px) {
+	.owl-carousel {
+		width: 90%;
+		margin: 0 auto;
+		padding: 2%;
+	}
+	.item h4 a{
+		font-size: 1em;
+	}
+	.da-slide .da-link {
+		margin-left:10px;
+		top: 225px;
+		padding: 10px 34px 8px;
+	}
+}
+@media only screen and (max-width:640px) and (min-width:480px) {
+	.owl-carousel {
+		width: 80%;
+		margin: 0 auto;
+		padding: 2%;
+	}
+	.da-slide .da-link {
+		margin-left:10px;
+		top: 200px;
+		padding: 10px 34px 8px;
+	}
+	.da-slide {
+		padding: 0 5%;
+		width: 80%;
+	}
+}
+@media only screen and (max-width:480px) and (min-width:320px) {
+	.owl-carousel {
+	
+	}
+	.da-slide .da-link {
+		top:240px;
+		margin-left:10px;
+		padding: 8px 18px 6px;
+		font-size:1.2em;
+	}
+}
