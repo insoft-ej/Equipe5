@@ -9,7 +9,7 @@ form,input,select,textarea{margin:0; padding:40; color:#000000;}
 
 div.box {
     margin:0 auto;
-    width:500px;
+    width:100%;
     background:#267F5D;
     position:relative;
     top:10px;
@@ -18,7 +18,7 @@ div.box {
 
 div.box h1 { 
     color:#fff;
-    font-size:19px;
+    font-size:25px;
     text-transform:uppercase;
     padding:5px 0 5px 5px;
     border-bottom:1px solid #267F5D;
@@ -26,12 +26,13 @@ div.box h1 {
 }
 
 div.box label {
-    width:100%;
+    width:80%;
     display: block;
     background:#267F5D;
     border-top:1px solid #267F5D;
     border-bottom:1px solid #267F5D;
     padding:10px 0 10px 0;
+    margin-left: 5%;
 }
 
 div.box label span {
@@ -67,13 +68,13 @@ div.box .message{
 }
 
 div.box .button{
-    margin:0 0 10px 0;
+    margin:0 0 3px 0;
     padding:4px 7px;
     background:#fff;
     border:0px;
     position: relative;
     top:10px;
-    left:382px;
+    left:100px;
     width:100px;
     border-bottom: 3px double #000000;
     border-top: 3px double #000000;

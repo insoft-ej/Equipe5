@@ -14,8 +14,10 @@ body {
 		-moz-transition: 0.5s all;
 		-o-transition: 0.5s all;
 		padding: 1em;
-		background: #C0C0C0;
+		background: #00521D;
 		cursor:pointer;
+		border-radius: 15px;
+
     }
     #owl-demo .item:hover a{
     		color:#fff;
@@ -33,16 +35,19 @@ body {
 	-webkit-border-radius: 150px;
 	-o-border-radius: 150px;
 	-moz-border-radius: 150px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Nome dos professores*/
 .item h4 a{
 	font-family: f1;
 	font-size: 1em;
-	color: #696969;
+	color: #fff;
 	padding: 0.5em 0 0.4em 0;
 	display:block;
 	transition:0.5s all;
+	text-align: center;
 }
 .item h4 a:hover{
 	color:#C0C0C0;

@@ -20,7 +20,7 @@ section{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-		background: #FFF;
+		background: #A1DBB6;
       }
 
 
@@ -58,15 +58,14 @@ section{
 	}
 
 	#emphasis{
-			padding-top: 200px;
+			padding-top: 100px;
 	}
 	
 	#projects{
 		padding-top: 300px;
 		padding-bottom: 100px;
 	}
-	
-	
+		
 .rw-wrapper{
 	width: 80%;
 	position: relative;
@@ -134,3 +133,63 @@ section{
 	25% { opacity: 0; height: 60px; }
     100% { opacity: 0; }
 }
+
+/*----start-services----*/
+.services-grid{
+	float: left;
+	width: 40%;
+	margin-left: 3%;
+	margin-right: 3%;
+	background: #fff;
+	padding: 1em;
+	margin-bottom: 3%;
+}
+.services-grid:nth-child(2),.services-grid:nth-child(4){
+	margin-right:0;
+}
+.services-grid-left{
+	float: left;
+	width: 15%;
+	text-align: center;
+}
+.services-grid-left span{
+	width:64px;
+	height:64px;
+	display:inline-block;
+}
+.services-grid-left span.s-icon1{
+	background:url(../images/services-icons.png) no-repeat 0px 0px;
+}
+.services-grid-left span.s-icon2{
+	background: url(../images/services-icons.png) no-repeat -66px 0px;
+}
+.services-grid-left span.s-icon3{
+	background: url(../images/services-icons.png) no-repeat -131px 0px;
+}
+.services-grid-left span.s-icon4{
+	background: url(../images/services-icons.png) no-repeat -197px 0px;
+}
+.services-grid-right{
+	float:right;
+	width: 80%;
+}
+.services-grid-right h4{
+	font-size: 1.5em;
+	color: #3D3E41;
+	font-weight: 700;
+	padding: 0 0 0.5em 0;
+	text-transform: uppercase;
+}
+.services-grid-right p{
+	font-size: 0.875em;
+	color: #3D3E41;
+	line-height: 1.7em;
+	text-align: justify;
+} 
+.services-grids{
+	padding:2em 0;
+}
+.services{
+	position:relative;
+}
+/*----*/
