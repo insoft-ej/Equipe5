@@ -30,4 +30,29 @@ section{
 
 	  #introduction{
 			padding-top: 100px;
-	}
+		}
+
+		/* Banner - Engenharia de Software */
+		#banner-wrapper {
+			padding: 2em 0 2em 0;
+			width: 100%;
+		    margin-left: 0;
+		    margin-right: 0;
+		}
+
+		#banner-wrapper {
+			position: relative;
+			overflow: hidden;
+			background: #fff;
+			color: #fff;
+			text-align: center;
+			border-top: solid 2px #e5e5e5;
+			border-bottom: solid 2px #e5e5e5;
+			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5, inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+		}
+
+		#banner-wrapper p {
+			text-align: center;
+		}
+
+}
