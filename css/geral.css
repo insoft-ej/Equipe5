@@ -16,22 +16,18 @@
 	src:url(fonts/TitilliumWeb-ExtraLight.ttf);
 }
 
-/*No momente este header nao muda nada no code*/
-header {
-      	font-family: f2;
-        position: fixed;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        background: #696969;
-        z-index: 2;
-      }
-
 section{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
-        background-color: #F0F8FF;
+		background: #FFF;
       }
 
 
+	  #home{
+			padding-top: 100px;
+		}
+
+	  #introduction{
+			padding-top: 100px;
+	}

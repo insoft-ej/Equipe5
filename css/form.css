@@ -1,6 +1,9 @@
 *{ margin:0; padding:0;}
 
-body{ font:100% normal Arial, Helvetica, sans-serif;}
+body{ 
+	font:100% normal Arial, Helvetica, sans-serif;
+	background: #f1f1f1;
+	}
 
 form,input,select,textarea{margin:0; padding:40; color:#000000;}
 
