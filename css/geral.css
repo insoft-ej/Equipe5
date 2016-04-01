@@ -55,16 +55,25 @@ section{
 			text-align: center;
 		}
 
-	}
+		#emphasis{
+				padding-top: 80px;
+				width: 100%;
+	  			height: 70%;
+		}
+		
+		#projects{
+			padding-top: 80px;
+			padding-bottom: 100px;
+			width: 100%;
+	  		height: 70%;
+		}
 
-	#emphasis{
-			padding-top: 100px;
-	}
-	
-	#projects{
-		padding-top: 300px;
-		padding-bottom: 100px;
-	}
+		#faculty{
+			padding-top: 80px;
+			width: 100%;
+	  		height: 70%;
+		}
+}
 		
 .rw-wrapper{
 	width: 80%;
@@ -191,5 +200,14 @@ section{
 }
 .services{
 	position:relative;
+}
+
+.introduction
+{
+	background: #FBFBFB;
+	padding: 1.4em 1.5em;
+	vertical-align: middle;
+	text-align: justify;
+
 }
 /*----*/
