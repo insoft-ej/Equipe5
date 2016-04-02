@@ -17,6 +17,9 @@ body {
 		background: #00521D;
 		cursor:pointer;
 		border-radius: 15px;
+		width: 180px;
+		height: 180px;
+
 
     }
     #owl-demo .item:hover a{
@@ -41,10 +44,9 @@ body {
 
 /* Nome dos professores*/
 .item h4 a{
-	font-family: f1;
 	font-size: 1em;
 	color: #fff;
-	padding: 0.5em 0 0.4em 0;
+	padding: 5px 0 3px 0;
 	display:block;
 	transition:0.5s all;
 	text-align: center;

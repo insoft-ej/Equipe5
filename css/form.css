@@ -14,13 +14,14 @@ div.box {
     position:relative;
     top:10px;
     border:1px solid #267F5D;
+    border-radius: 15px;
 }
 
 div.box h1 { 
     color:#fff;
     font-size:25px;
     text-transform:uppercase;
-    padding:5px 0 5px 5px;
+    padding:3px 0 5px 5px;
     border-bottom:1px solid #267F5D;
     border-top:1px solid #267F5D; 
 }
@@ -43,6 +44,13 @@ div.box label span {
     width:100px;
     text-align:right;
     padding:5px 20px 0 0;
+}
+
+div.box img {
+    float:right;
+    width:200px;
+    padding:5% 15% 0 0;
+    position: relative;
 }
 
 div.box .input_text {
@@ -68,7 +76,7 @@ div.box .message{
 }
 
 div.box .button{
-    margin:0 0 3px 0;
+    margin-bottom: 3%;
     padding:4px 7px;
     background:#fff;
     border:0px;
@@ -80,6 +88,22 @@ div.box .button{
     border-top: 3px double #000000;
     border-left:3px double #000000;
     border-right:3px double #000000;
+    border-radius: 10px;
 }
 
+div.box .logo{
+    margin-bottom: 3%;
+    padding:4px 7px;
+    background:#fff;
+    border:0px;
+    position: relative;
+    top:10px;
+    left:100px;
+    width:100px;
+    border-bottom: 3px double #000000;
+    border-top: 3px double #000000;
+    border-left:3px double #000000;
+    border-right:3px double #000000;
+    border-radius: 10px;
+}
 

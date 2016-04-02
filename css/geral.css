@@ -6,16 +6,6 @@
     border:0;
  }
 
-@font-face{
-	font-family: font1;
-	src:url(fonts/TitilliumWeb-Regular.ttf);
-}
-
-@font-face{
-	font-family: font2;
-	src:url(fonts/TitilliumWeb-ExtraLight.ttf);
-}
-
 section{
         width: 80%;
         margin-left: 10%;
@@ -71,7 +61,7 @@ section{
 		#faculty{
 			padding-top: 80px;
 			width: 100%;
-	  		height: 70%;
+	  		height: 300px;
 		}
 }
 		
@@ -186,7 +176,6 @@ section{
 	font-size: 1.5em;
 	color: #3D3E41;
 	font-weight: 700;
-	padding: 0 0 0.5em 0;
 	text-transform: uppercase;
 }
 .services-grid-right p{

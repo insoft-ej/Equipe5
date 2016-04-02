@@ -13,10 +13,10 @@
     	
 		<!-- Carrosel  - Docentes -->
 		<script src="js/rolagem.js"></script>
-		<link href="css/owl.carousel.css" rel="stylesheet">
-		<script type="text/javascript" src="js/jquery.carousel.js"></script>
+		<link href="css/owl.carousel.css" rel="stylesheet"> 
+		<script type="text/javascript" src="js/jquery.carousel.js"></script> 
 		<script src="js/javascript.js"></script>
-		<script src="js/owl.carousel.js"></script>
+		<script src="js/owl.carousel.js"></script> 
     			
     </head>
 
@@ -227,7 +227,7 @@
 									<div class="cau_left">
 										<img src="images/faculty/elaine_venson.jpg" >
 									</div>
-									<div class="cau_left">
+									<div class="cau_left" width:"180px" height:"32px">
 										<h4><a href="http://lattes.cnpq.br/2952087768735076" target="_blank">Elaine Venson</a></h4>
 									</div>
 								</div>
@@ -318,10 +318,7 @@
 						<script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
 						<script type="text/javascript">
 							$(document).ready(function(){
-							    $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
-							  
-							    $(document).reset();
-						
+							    $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });						
 							});
 						</script>
 						</div>
@@ -331,15 +328,19 @@
 					<a name="contact" id="contact">
 						<form name="meuForm" method="post" id="formulario">
 							<div class="box"> 
-								<br><br>
+								<br>
 								<h1><center>Dúvidas? Sugestões? Contate-nos!</center></h1>
-						 
+								
+								<div> <!-- Logo InSoft -->
+									<img src="images/logoInSoft.png">
+								</div>
+								
 								<label> 
 									<span>Nome Completo</span>
 						 			<input type="text" class="input_text" name="nome" id="name"/>
-						 
+						 			
 								</label>
-						 
+								
 								<label>
 						 			<span>Email</span>
 									<input type="text" class="input_text" name="email" id="email"/>
@@ -356,6 +357,7 @@
 									<input type="button" class="button" value="Enviar" />
 								</label>           
 							</div>
+							
 						</form> 
 					</a>
 				</div>
