@@ -15,4 +15,10 @@ ratings:
   - "**.css"
   - "**.js"
   - "**.html"
+exclude_paths:
+  - "css/own.carousel.css"
+  - "js/jquery.carousel.js"
+  - "js/nivo-lightbox.min.js"
+  - "js/owl.carousel.js"
+ 
 
