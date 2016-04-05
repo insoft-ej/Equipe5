@@ -12,9 +12,9 @@
 +    enabled: true
 +ratings:
 +  paths:
-+  - "**.css"
-+  - "**.inc"
-+  - "**.js"
-+  - "**.jsx"
++  "**.css"
++  "**.inc"
++  "**.js"
++  "**.jsx"
 
 +exclude_paths: []
