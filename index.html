@@ -4,41 +4,53 @@
     
     	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <!-- Tipo de caracter usado-->
     
-    	<!--Link para CSS -->
+    	<!--Link to CSS -->
     	<link rel="stylesheet" type="text/css" href="css/footer.css" />
     	<link rel="stylesheet" type="text/css" href="css/form.css" />
     	<link rel="stylesheet" type="text/css" href="css/header.css" />
     	<link rel="stylesheet" type="text/css" href="css/geral.css" />
     	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+
+    	<!-- Counter -->
+		<link rel="stylesheet" type="text/css" href="css/counter.css" />
+		<script type="text/javascript" src="js/counter.js"></script> 
+		
     	
-		<!-- Carrosel  - Docentes -->
+		<!-- Carousel - Faculty -->
 		<script src="js/rolagem.js"></script>
 		<link href="css/owl.carousel.css" rel="stylesheet"> 
 		<script type="text/javascript" src="js/jquery.carousel.js"></script> 
 		<script src="js/javascript.js"></script>
 		<script src="js/owl.carousel.js"></script> 
-    			
+	
     </head>
 
     <body>
-				<header>
-                    <div id="logo-unb" class="float-l">
-                        <a href="http://www.unb.br/" target="_blank"><img src="images/logo.jpg" /></a>
-                    </div>
-						<div id="menu">
-							<nav class="float-r">
-								<ul class="list-auto">
-									<li><a href="#home">Home</a></li>
-									<li><a href="#introduction">Apresentação</a></li>
-									<li><a href="#emphasis">Ênfases</a></li>
-									<li><a href="#projects">Projetos</a></li>
-									<li><a href="#faculty">Corpo Docente</a></li>
-									<li><a href="#contact">Contate-nos</a></li>
-								</ul>
-							</nav>
-						</div>
-					</header>
+
+    		<!-- Header section -->
+    		<!-- CSS: header.css -->
+			<!-- ==================================================================== -->
+			<header>
+                <div id="logo-unb" class="float-l">
+                    <a href="http://www.unb.br/" target="_blank"><img src="images/logo.jpg" /></a>
+                </div>
+				<div id="menu">
+					<nav class="float-r">
+						<ul class="list-auto">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#introduction">Apresentação</a></li>
+							<li><a href="#emphasis">Ênfases</a></li>
+							<li><a href="#projects">Projetos</a></li>
+							<li><a href="#faculty">Corpo Docente</a></li>
+							<li><a href="#contact">Contate-nos</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
 			
+			<!-- Slider section -->
+			<!-- CSS: slider.css -->
+			<!-- ==================================================================== -->
 			<hr>
 			<section>
 				<div id="home">
@@ -116,6 +128,9 @@
 				    </div>
 				</div>
 
+				<!-- Introduction section -->
+				<!-- CSS: geral.css -->
+				<!-- ==================================================================== -->
 				<div id="introduction" class="introduction"> 
 					<a name="introduction" id="introduction">
 					<h2>Apresentação do Curso</h1>	
@@ -127,13 +142,18 @@
 					</a>
 				</div>
 
-				<!-- Banner -->
+				<!-- Banner Software Engineer-->
+				<!-- CSS: geral.css -->
+				<!-- ==================================================================== -->
 				<div id="banner-wrapper">
 					<div class="inner">
 						<img src="images/eng_soft_long.png" >
 					</div>
 				</div>
 				
+				<!-- Emphasis section -->
+				<!-- CSS: geral.css -->
+				<!-- ==================================================================== -->
 				<div id="emphasis">
 				<h2 class="heading"><center>Ênfases</center></h2>
 					<a name="emphasis" id="emphasis1">
@@ -150,6 +170,9 @@
 					</a>
 				</div>
 
+				<!-- Projects section -->
+				<!-- CSS: geral.css -->
+				<!-- ==================================================================== -->
 				<div id="projects">
 				<h2 class="heading"><center>Projetos</center></h2>
 					<a name="projects" id="projects">
@@ -212,9 +235,40 @@
 						</div>
 					</div>
 					<!----//End-services---->
-
 					</a>
 				</div>
+
+
+				<!-- Counter section -->
+				<!-- CSS: counter.css -->
+				<!-- ==================================================================== -->
+				<section id="counter">
+					<div class="container">
+						<div class="row" style="display:flex; justify-content:center;">
+
+							<div class="col-md-3 col-sm-3 counter-item">	
+								<h3 class="counter-number" data-from="1" data-to="256" data-speed="10000">5</h3>
+								<span class="counter-text">NOTA MEC</span>
+				            </div> 
+				            <div class="col-md-3 col-sm-3 counter-item">	
+								<h3 class="counter-number" data-from="1" data-to="512" data-speed="20000">1512</h3>
+								<span class="counter-text">ALUNOS</span>
+				            </div>   
+				            <div class="col-md-3 col-sm-3 counter-item">	
+								<h3 class="counter-number" data-from="1" data-to="1024" data-speed="30000">23</h3>
+								<span class="counter-text">PROJETOS</span>
+				            </div> 
+				             <div class="col-md-3 col-sm-3 counter-item">
+								<h3 class="counter-number" data-from="1" data-to="2048" data-speed="40000">128</h3>
+								<span class="counter-text">PROFESSORES</span>
+				            </div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Carousel section -->
+				<!-- CSS: ownl.carousel.css -->
+				<!-- ==================================================================== -->
 				<div id="faculty">
 					<a name="faculty" id="faculty">
 					<div class="Recent-wroks"><!-- start services -->
@@ -324,6 +378,10 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- Form section -->
+				<!-- CSS: form.css -->
+				<!-- ==================================================================== -->
 				<div id="contact">
 					<a name="contact" id="contact">
 						<form name="meuForm" method="post" id="formulario">
@@ -362,6 +420,10 @@
 					</a>
 				</div>
 			</section>
+
+			<!-- Footer section -->
+			<!-- CSS: footer.css -->
+			<!-- ==================================================================== -->
 			<br>
 			<footer class="copyright">
                         <p class="footer-copy" >

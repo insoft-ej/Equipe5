@@ -1,0 +1,59 @@
+/* Counter section styles
+/* ========================================== */
+#counter {
+   background: url('../images/fga.jpg') 100% 0 repeat-y;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 160px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+#counter .counter-number {
+  color: #ffa400;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+#counter .counter-text {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.container{
+  width: 80%;
+    padding: 0px;
+    margin: 0px;
+    padding-right:0px;
+    padding-left:0px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.col-md-3{
+  position:relative;
+  min-height:1px;
+  padding-right:15px;
+  padding-left:15px
+
+}
+
+/* mobile responsive section styles
+/* ========================================== */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 53px;
+  }
+  #counter .counter-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:25%
+  }
+  
+}
