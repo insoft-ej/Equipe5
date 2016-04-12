@@ -1,0 +1,62 @@
+----- Dia 12.04
+Continuação no Desenvolvimento do Site
+* Criar paleta de cores para o site.
+* Criar Stylesheet para o site.
+
+
+
+* Corrigir Menu - responsivo
+* Slider - adequar as imagens ao slider - corrigir layout 
+	- Remover a borda branca e colocar um sombreado pequeno
+* Apresentaçao do Curso
+	- criar uma textbox para delimitar tamanho e formatação
+* Ênfases
+	Melhorar texto
+	Adequar fonte 
+	Tempo de transição dos títulos ao texto
+
+* Projetos
+	- Pesquisar transição de textos
+	- Abordar mais projetos
+	- Corrigir estado atual do curso
+	- Subir imagem fga para depois da apresentação do curso
+* Corpo Docente
+	- corrigir foto professor
+* Formulário
+	- Corrigir layout
+	- verificar margem inferior (footer)
+
+
+* Adicionar issues de coisas para se fazer no site.
+
+------Reunião com o Coordenador Paulo
+Professores
+	54 prof tronco comum
+	29 prof software
+		- 6 fastados 1 cedido
+		+ 2 substitutos
+
+	25 prof Software ativos
+	Há professores que nao são exclusivos de software, como:
+		profº Edgar  - Software e tronco comum
+
+Ênfases
+	Tudo que precisamos saber de fluxo é o que está no PPP do site.
+
+	Enfases do tipo Sistemas Embarcados e Jogos não existem, são orintações
+	de professores para direcionar os 30% de creditos optativos.
+
+	Não se pode divulgar um fluxo com esse tipo de enfase, pois tornaria 
+	mais formal ao elaborar um documento como esse, e fere a ideia da UnB.
+
+	* Pode fazer:
+	   - Conversar com professores específicos e pedir uma orientação de quais
+	     matérias pegar, como perguntar ao Laranjeira as suas recomendações para
+	     ter uma boa base em Sistemas Críticos.
+
+	Diploma: Bacharelado em Engenharia de Software,
+		enfase não entra no diploma.
+
+	Nesse caso, recomendo avaliarmos as disciplinas e validá-las com algum professor
+
+
