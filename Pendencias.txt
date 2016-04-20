@@ -35,6 +35,7 @@ Professores
 	29 prof software
 		- 6 fastados 1 cedido
 		+ 2 substitutos
+	Total: 18+12+18+24+29 = 
 
 	25 prof Software ativos
 	Há professores que nao são exclusivos de software, como:

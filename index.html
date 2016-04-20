@@ -12,10 +12,9 @@
     	<link rel="stylesheet" type="text/css" href="css/slider.css" />
 
     	<!-- Counter -->
+    	<script type="text/javascript" src="js/counter.js"></script> 
 		<link rel="stylesheet" type="text/css" href="css/counter.css" />
-		<script type="text/javascript" src="js/counter.js"></script> 
-		
-    	
+		    	
 		<!-- Carousel - Faculty -->
 		<script src="js/rolagem.js"></script>
 		<link href="css/owl.carousel.css" rel="stylesheet"> 
@@ -51,7 +50,7 @@
 			<!-- Slider section -->
 			<!-- CSS: slider.css -->
 			<!-- ==================================================================== -->
-			<hr>
+			
 			<section>
 				<div id="home">
 					<a name="home" id="home">
@@ -74,7 +73,7 @@
 				        <div id="slideshow-inner">
 				            <ul>
 				                <li id="slide1">
-				                    <img src="images/reconhecimento.png" />
+				                    <img src="images/imageLarge.jpg" />
 				                    <div class="description">
 				                        <input type="checkbox" id="show-description-1"/>
 										<label for="show-description-1" class="show-description-label"><h2>Reconhecimento do Curso</h2></label>
@@ -84,7 +83,7 @@
 				                    </div>
 				                </li>
 				                <li id="slide2">
-				                    <img src="images/semana_empreendedor.png" />
+				                    <img src="images/imageLarge1.jpg" />
 				                    <div class="description">
 				                        <input type="checkbox" id="show-description-2"/>
 				                        <label for="show-description-2" class="show-description-label"><h2>Semana do Empreendedorismo</h2></label>
@@ -94,7 +93,7 @@
 				                    </div>
 				                </li>
 				                <li id="slide3">
-				                    <img src="images/insoft.png" />
+				                    <img src="images/imageLarge2.jpg" />
 				                    <div class="description">
 				                        <input type="checkbox" id="show-description-3"/>
 										<label for="show-description-3" class="show-description-label"><h2>Empresa Júnior</h2></label>
@@ -104,7 +103,7 @@
 				                    </div>
 				                </li>
 				                <li id="slide4">
-				                    <img src="images/app.jpg" />
+				                    <img src="images/imageLarge3.jpg" />
 				                    <div class="description">
 				                        <input type="checkbox" id="show-description-4"/>
 										<label for="show-description-4" class="show-description-label"><h2>Carona Phone</h2></label>
@@ -114,7 +113,7 @@
 				                    </div>
 				                </li>
 				                <li id="slide5">
-				                    <img src="images/guia_estudante.png" />
+				                    <img src="images/imageLarge4.jpg" />
 				                    <div class="description">
 				                        <input type="checkbox" id="show-description-5"/>
 										<label for="show-description-5" class="show-description-label"><h2>Nota 5</h2></label>
@@ -135,21 +134,39 @@
 					<a name="introduction" id="introduction">
 					<h2>Apresentação do Curso</h1>	
 					<table>
-						<td><p>A Engenharia de Software é a integração dos princípios da Matemática e Ciência da Computação com as práticas da Engenharia, com objetivo de desenvolver modelos sistemáticos e técnicas confiáveis para a produção de software de alta qualidade.</p>
-						<p>O nosso Engenheiro de Software terá perfil generalista em software, sendo capaz de definir e aplicar uma abordagem sistemática, disciplinada e quantificável para a definição, desenvolvimento e manutenção de software, alinhado a legislação vigente e com uma visão humanística crítica sobre o impacto de sua atuação profissional na sociedade.</p></td>
+						<td><p align="justify-content">A Engenharia de Software é a integração dos princípios da Matemática e Ciência da Computação com as práticas da Engenharia, com objetivo de desenvolver modelos sistemáticos e técnicas confiáveis para a produção de software de alta qualidade.</p>
+						<p align="justify-content">O nosso Engenheiro de Software terá perfil generalista em software, sendo capaz de definir e aplicar uma abordagem sistemática, disciplinada e quantificável para a definição, desenvolvimento e manutenção de software, alinhado a legislação vigente e com uma visão humanística crítica sobre o impacto de sua atuação profissional na sociedade.</p></td>
 						<td><img src="images/engenharia_software.jpg" height="250" width="350"></td>
 					</table>					
 					</a>
 				</div>
 
-				<!-- Banner Software Engineer-->
-				<!-- CSS: geral.css -->
+				<!-- Counter section -->
+				<!-- CSS: counter.css -->
 				<!-- ==================================================================== -->
-				<div id="banner-wrapper">
-					<div class="inner">
-						<img src="images/eng_soft_long.png" >
+				<section id="counter">
+					<div class="container">
+						<div class="row" style="display:flex; justify-content:center;">
+
+							<div class="col-md-3 col-sm-3 counter-item">	
+								<h3 class="counter-number" data-from="1" data-to="5" data-speed="10000">1</h3>
+								<span class="counter-text">CURSOS</span>
+				            </div> 
+				            <div class="col-md-3 col-sm-3 counter-item">	
+								<h3 class="counter-number" data-from='1' data-to='2520' data-speed="20000">1</h3>
+								<span class="counter-text">ALUNOS</span>
+				            </div>   
+				            <div class="col-md-3 col-sm-3 counter-item">	
+								<h3 class="counter-number" data-from="1" data-to="1024" data-speed="30000">26</h3>
+								<span class="counter-text">PROJETOS</span>
+				            </div> 
+				             <div class="col-md-3 col-sm-3 counter-item">
+								<h3 class="counter-number" data-from="1" data-to="101" data-speed="40000">4</h3>
+								<span class="counter-text">PROFESSORES</span>
+				            </div>
+						</div>
 					</div>
-				</div>
+				</section>
 				
 				<!-- Emphasis section -->
 				<!-- CSS: geral.css -->
@@ -239,33 +256,7 @@
 				</div>
 
 
-				<!-- Counter section -->
-				<!-- CSS: counter.css -->
-				<!-- ==================================================================== -->
-				<section id="counter">
-					<div class="container">
-						<div class="row" style="display:flex; justify-content:center;">
-
-							<div class="col-md-3 col-sm-3 counter-item">	
-								<h3 class="counter-number" data-from="1" data-to="256" data-speed="10000">5</h3>
-								<span class="counter-text">NOTA MEC</span>
-				            </div> 
-				            <div class="col-md-3 col-sm-3 counter-item">	
-								<h3 class="counter-number" data-from="1" data-to="512" data-speed="20000">1512</h3>
-								<span class="counter-text">ALUNOS</span>
-				            </div>   
-				            <div class="col-md-3 col-sm-3 counter-item">	
-								<h3 class="counter-number" data-from="1" data-to="1024" data-speed="30000">23</h3>
-								<span class="counter-text">PROJETOS</span>
-				            </div> 
-				             <div class="col-md-3 col-sm-3 counter-item">
-								<h3 class="counter-number" data-from="1" data-to="2048" data-speed="40000">128</h3>
-								<span class="counter-text">PROFESSORES</span>
-				            </div>
-						</div>
-					</div>
-				</section>
-
+				
 				<!-- Carousel section -->
 				<!-- CSS: ownl.carousel.css -->
 				<!-- ==================================================================== -->
@@ -388,11 +379,7 @@
 							<div class="box"> 
 								<br>
 								<h1><center>Dúvidas? Sugestões? Contate-nos!</center></h1>
-								
-								<div> <!-- Logo InSoft -->
-									<img src="images/logoInSoft.png">
-								</div>
-								
+
 								<label> 
 									<span>Nome Completo</span>
 						 			<input type="text" class="input_text" name="nome" id="name"/>
@@ -424,7 +411,6 @@
 			<!-- Footer section -->
 			<!-- CSS: footer.css -->
 			<!-- ==================================================================== -->
-			<br>
 			<footer class="copyright">
                         <p class="footer-copy" >
                             Copyright &copy; - InSoft - 2016 

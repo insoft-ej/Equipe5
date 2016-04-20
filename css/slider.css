@@ -12,16 +12,14 @@ h1 { color: white }
 
 #slideshow-wrap {
 	
-    display: block;
-    height: 320px;
-    min-width: 60%;
+    display: inline-block;
+    height: auto;
+    min-width: 100%;
     max-width: 100%;
-    margin: 0px 18%;
-    border: 12px #267F5D solid;
-    -webkit-box-shadow: 0px 0px 5px rgba(62,205,171, .8);
-    -moz-box-shadow: 0px 0px 5px rgba(62,205,171, .8);
+    margin: 0.2%;
     box-shadow: 0px 0px 5px rgba(62,205,171, .8);
     position: relative;
+
 } 
 
 #slideshow-inner {
@@ -55,6 +53,7 @@ h1 { color: white }
 #slideshow-inner>ul>li>img {
     margin: auto;
     height: 100%;
+    vertical-align: middle;
 }
 
 #slideshow-wrap input[type=radio] {
